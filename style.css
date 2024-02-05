@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo{
+    height: 250px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(Profile-photo.jpg);
+    background-size: cover;
+}
+.summary{
+    height: 250px;
+    width: 80%;
+    font-family: sans-serif;
+    position: relative;
+    bottom: -45px;
+}
+.name{
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.degree{
+    font-size: 27px;
+
+    font-weight: 300;
+}
+.overview{
+
+    font-size: 17px;
+    padding-right: 160px;
+}
+.contact{
+    height: 130px;
+    width: 100%;
+    background-color: rgb(43, 52, 61);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.details{
+    display: flex;
+    margin-left: 30px;
+}
+.qualifications{
+    height: 5000px;
+    width: 60%;
+    margin-right: 100px;
+}
+.skillsandmore{
+    height: 5000px;
+    width: 40%;
+}
+.education{
+    font-family: sans-serif;
+}
+.degree-name{
+    font-size: 25px;
+}
+.college-name{
+    font-size: 25px;
+    padding-bottom: 13px;
+}
+.college-duration{
+    float: left;
+    color: rgb(76, 83, 91);
+}
+.college-location{
+    float: right;
+    color: rgb(76, 83, 91);
+}
+.school-name{
+    font-size: 25px;
+}
+.work-experience{
+    font-family: sans-serif;
+}
+.designation{
+    font-size: 25px;
+}
+.company-name{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.duration{
+    color: rgb(76, 83, 91);
+    padding-bottom: 15px;
+}
+.task{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.task-list{
+    font-size: 20px;
+}
+.skillsandmore{
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.skills{
+    margin-bottom: 60px;
+}
+.skillbox{
+    color: white;
+    font-weight: 200;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill-1{
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.skill-2{
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.skill-3{
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.skill-4{
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+}
+.skill-5{
+    height: 35px;
+    width: 120px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.skill-6{
+    height: 35px;
+    width: 120px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.skill-7{
+    height: 35px;
+    width: 190px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.skill-8{
+    height: 35px;
+    width: 180px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.skill-9{
+    height: 35px;
+    width: 175px;
+    font-size: 20px;
+    background-color: rgb(149, 153, 158);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.language{
+    margin-bottom: 60px;
+}
+.language-name{
+    font-size: 22px;
+}
+.language-proficiency{
+    color:rgb(43, 52, 61);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.interests-box{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.interest-1{
+    height: 35px;
+    width: 210px;
+    border: 2px rgb(178, 178, 178) solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.interest-2{
+    height: 35px;
+    width: 180px;
+    border: 2px rgb(178, 178, 178) solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interest-3{
+    height: 35px;
+    width: 125px;
+    border: 2px rgb(178, 178, 178) solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.interest-4{
+    height: 35px;
+    width: 200px;
+    border: 2px rgb(178, 178, 178) solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interest-5{
+    height: 35px;
+    width: 235px;
+    border: 2px rgb(178, 178, 178) solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+.interest-6{
+    height: 35px;
+    width: 190px;
+    border: 2px rgb(178, 178, 178) solid;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
